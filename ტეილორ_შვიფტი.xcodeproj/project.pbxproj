@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		CBBEAFBE2BFD3AFD00A5DF5D /* _____________App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBEAFBD2BFD3AFD00A5DF5D /* _____________App.swift */; };
-		CBBEAFC02BFD3AFD00A5DF5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBEAFBF2BFD3AFD00A5DF5D /* ContentView.swift */; };
 		CBBEAFC22BFD3AFE00A5DF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBEAFC12BFD3AFE00A5DF5D /* Assets.xcassets */; };
 		CBBEAFC52BFD3AFE00A5DF5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBEAFC42BFD3AFE00A5DF5D /* Preview Assets.xcassets */; };
+		CBBEAFCC2BFD49DB00A5DF5D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBEAFCB2BFD49DB00A5DF5D /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CBBEAFBA2BFD3AFD00A5DF5D /* ტეილორ_შვიფტი.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ტეილორ_შვიფტი.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBEAFBD2BFD3AFD00A5DF5D /* _____________App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____________App.swift"; sourceTree = "<group>"; };
-		CBBEAFBF2BFD3AFD00A5DF5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CBBEAFC12BFD3AFE00A5DF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBBEAFC42BFD3AFE00A5DF5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBBEAFCB2BFD49DB00A5DF5D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				CBBEAFBD2BFD3AFD00A5DF5D /* _____________App.swift */,
-				CBBEAFBF2BFD3AFD00A5DF5D /* ContentView.swift */,
 				CBBEAFC12BFD3AFE00A5DF5D /* Assets.xcassets */,
 				CBBEAFC32BFD3AFE00A5DF5D /* Preview Content */,
+				CBBEAFCB2BFD49DB00A5DF5D /* SwiftUIView.swift */,
 			);
 			path = "ტეილორ_შვიფტი";
 			sourceTree = "<group>";
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBBEAFC02BFD3AFD00A5DF5D /* ContentView.swift in Sources */,
 				CBBEAFBE2BFD3AFD00A5DF5D /* _____________App.swift in Sources */,
+				CBBEAFCC2BFD49DB00A5DF5D /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
